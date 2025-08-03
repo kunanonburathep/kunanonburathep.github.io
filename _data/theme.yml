@@ -20,8 +20,8 @@ navigation:
       path: "/index"
     - name: CV
       path: "/cv"
-    - name: My Blog
-      path: "/posts"
+    - name: Off-topic
+      path: "/offtopic"
   paginate:
     older: right
 

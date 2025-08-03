@@ -5,7 +5,7 @@ title: Kunanon's CV
 ### Education
 
 - October 2024 - Present: [Durham University][dur], Ph.D. in Computer Science.
-  - Studentship: EPSRC Doctoral Studentship
+  - Studentship: <a href="https://gtr.ukri.org/projects?ref=studentship-2919518">EPSRC Doctoral Studentship 2024</a>
   - Proposal: Learning-Augmented Online Algorithms for Bipartite Matching and Other Combinatorial Problems
   - Supervisor: [Prof. Thomas Erlebach][thomas-page] and [Asst. Prof. William Kumar Moses Jr.][billy-page]
 
