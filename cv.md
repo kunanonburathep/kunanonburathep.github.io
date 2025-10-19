@@ -1,5 +1,7 @@
 ---
-title: Kunanon's CV
+layout: default
+title: "Curriculum Vitae — Kunanon Burathep"
+description: "CV of Kunanon Burathep, PhD Student at Durham University"
 ---
 
 ### Education
@@ -43,3 +45,51 @@ For more information, [Google Scholar][scholar], [dblp][dblp]
 
 [thomas-page]:https://sites.google.com/view/thomas-erlebach/home?authuser=0
 [billy-page]: https://sites.google.com/view/wkmjr/home?authuser=0
+
+
+
+<nav>
+[Home](/) · [CV](/cv) · [Publications](/publications) · [Projects](/projects) · [Offtopic](/offtopic)
+</nav>
+
+# 📄 Curriculum Vitae
+
+_Last updated: October 2025_  
+[📥 Download PDF](https://kunanonburathep.github.io/assets/CV_Kunanon.pdf)
+
+---
+
+## 🎓 Education
+- **Ph.D. in Computer Science**, Durham University *(2024 – Present)*  
+  EPSRC Doctoral Studentship
+- **M.Sc. in Computer Engineering**, Kasetsart University, Thailand
+- **B.Sc. in Computer Engineering**, Kasetsart University, Thailand
+
+---
+
+## 🧪 Research Interests
+- Learning-augmented online algorithms
+- Approximation algorithms
+- Online scheduling and matching
+
+---
+
+## 📝 Publications
+- [1] Author et al., *Paper Title*, Conference (Year). [PDF](#) · [arXiv](#)
+
+---
+
+## 👨‍🏫 Teaching
+- Teaching Assistant: Algorithms (Durham University, 2024)
+
+---
+
+## 🏆 Awards
+- EPSRC Doctoral Studentship (2024)
+
+---
+
+## 🌍 Professional Links
+- [GitHub](https://github.com/kunanonburathep) · [LinkedIn](https://www.linkedin.com/in/kunanonburathep/) · [Google Scholar](#) · [ORCID](#)
+
+---
