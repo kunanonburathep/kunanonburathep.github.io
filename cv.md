@@ -4,33 +4,43 @@ title: "Curriculum Vitae — Kunanon Burathep"
 description: "CV of Kunanon Burathep, PhD Student at Durham University"
 ---
 
-### Education
+# Curriculum Vitae
 
-- October 2024 - Present: [Durham University][dur], Ph.D. in Computer Science.
-  - Studentship: <a href="https://gtr.ukri.org/projects?ref=studentship-2919518">EPSRC Doctoral Studentship 2024</a>
-  - Proposal: Learning-Augmented Online Algorithms for Bipartite Matching and Other Combinatorial Problems
-  - Supervisor: [Prof. Thomas Erlebach][thomas-page] and [Asst. Prof. William Kumar Moses Jr.][billy-page]
+_Last updated: October 2025_  
+[Download PDF](https://kunanonburathep.github.io/assets/CV_Kunanon.pdf)
 
-- August 2020 - August 2022: [Kasetsart University][ku], M.Eng. in Computer Engineering.
-  - Supervisor: Assoc. Prof. Jittat Fakcharoenphol
-  - Thesis: An Improved Approximation Algorithm for Tracking Paths
+---
 
-- August 2016 - April 2020: [Kasetsart University][ku], B.Eng. in Computer Engineering.
-  - Supervisor: Assoc. Prof. Jittat Fakcharoenphol
-  - Senior Project: Constructing k-connected m-dominating set in a wireless ad-hoc network
+## Education
+- 2024 – Present: **Ph.D. in Computer Science**, Durham University, United Kingdom
+  - Supervisors: [Prof. Thomas Erlebach][thomas-page] and [Asst. Prof. William Kumar Moses Jr.][billy-page]
+  
+- 2020 - 2022: **M.Eng. in Computer Engineering**, Kasetsart University, Thailand 
+  - Advisor: [Assoc. Prof. Jittat Fakcharoenphol][jittat-page]
 
-### Experience
-- Jan 2025 - Present: Durham University, Demonstrator and Marker for Algorithms and Data Structures.
-- 2018 - 2022: Kasetsart University, Teaching Assistant for Discrete Mathematics, Algorithms and Data Structures.
+- 2016 - 2020: **B.Eng. in Computer Engineering**, Kasetsart University, Thailand 
 
-### Publication 
+---
 
+## Publications
 - KB. and J. Fakcharoenphol,
 *An Approximation Algorithm for the Vertex Multicut on Trees with an Application to the Tracking Paths Problem*, 2022 19th International Joint Conference on Computer Science and Software Engineering (JCSSE), 2022, pp. 1-5, [DOI: 10.1109/JCSSE54890.2022.9836254][pub: JCSSE2022].
+
 - KB. J. Fakcharoenphol and N. Wongwattanakij,
 *Approximating k-Connected m-Dominating Sets in Disk Graphs*, 2020 24th International Computer Science and Engineering Conference (ICSEC), 2020, pp. 1-7, [DOI: 10.1109/ICSEC51790.2020.9375178][pub: ICSEC2020].
 
-For more information, [Google Scholar][scholar], [dblp][dblp]
+---
+
+## Teaching Assistant Experience
+- Jan 2025 - Present: Durham University, Demonstrator for [Programming(Gold)][P(G)@Durham], [Algorithms and Data Structures][ADS@Durham].
+
+- 2018 - 2022: Kasetsart University, Teaching Assistant for Discrete Mathematics, Algorithms and Data Structures.
+
+---
+
+<footer>
+Last updated: {{ site.time | date: "2025-10-26" }}
+</footer>
 
 [ig]: https://www.instagram.com/phan_kunanon/
 [scholar]: https://scholar.google.com/citations?user=QmBGDF8AAAAJ&hl=en
@@ -45,51 +55,8 @@ For more information, [Google Scholar][scholar], [dblp][dblp]
 
 [thomas-page]:https://sites.google.com/view/thomas-erlebach/home?authuser=0
 [billy-page]: https://sites.google.com/view/wkmjr/home?authuser=0
+[jittat-page]: https://en.eng.ku.ac.th/?professor=jittat-fakcharoenphol
 
+[P(G)@Durham]:https://www.durham.ac.uk/study/modules/undergraduate/comp1111.php
+[ADS@Durham]: https://apps.dur.ac.uk/faculty.handbook/2020/UG/module/COMP1081
 
-
-<nav>
-[Home](/) · [CV](/cv) · [Publications](/publications) · [Projects](/projects) · [Offtopic](/offtopic)
-</nav>
-
-# 📄 Curriculum Vitae
-
-_Last updated: October 2025_  
-[📥 Download PDF](https://kunanonburathep.github.io/assets/CV_Kunanon.pdf)
-
----
-
-## 🎓 Education
-- **Ph.D. in Computer Science**, Durham University *(2024 – Present)*  
-  EPSRC Doctoral Studentship
-- **M.Sc. in Computer Engineering**, Kasetsart University, Thailand
-- **B.Sc. in Computer Engineering**, Kasetsart University, Thailand
-
----
-
-## 🧪 Research Interests
-- Learning-augmented online algorithms
-- Approximation algorithms
-- Online scheduling and matching
-
----
-
-## 📝 Publications
-- [1] Author et al., *Paper Title*, Conference (Year). [PDF](#) · [arXiv](#)
-
----
-
-## 👨‍🏫 Teaching
-- Teaching Assistant: Algorithms (Durham University, 2024)
-
----
-
-## 🏆 Awards
-- EPSRC Doctoral Studentship (2024)
-
----
-
-## 🌍 Professional Links
-- [GitHub](https://github.com/kunanonburathep) · [LinkedIn](https://www.linkedin.com/in/kunanonburathep/) · [Google Scholar](#) · [ORCID](#)
-
----
