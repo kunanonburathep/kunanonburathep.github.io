@@ -34,28 +34,13 @@ Personal space for thoughts, hobbies, and life outside of research.
 ## Photography and Drawing
 I love capturing moments from my travels and conference trips through my lens.
 
-<table style="width: 100%; border-collapse: collapse; text-align: center;">
-  <tr>
-    <td style="width: 50%; padding: 10px;">
-      <img src="assets/img/photo1.jpg" alt="Oslo, Norway" style="max-width: 100%; height: auto;">
-      <p><i>Oslo, Norway</i></p>
-    </td>
-    <td style="width: 50%; padding: 10px;">
-      <img src="assets/img/photo2.jpg" alt="Amsterdam, Netherlands" style="max-width: 100%; height: auto;">
-      <p><i>Amsterdam, Netherlands</i></p>
-    </td>
-  </tr>
-  <tr>
-    <td style="padding: 10px;">
-      <img src="assets/img/photo3.jpg" alt="Krakow, Poland" style="max-width: 100%; height: auto;">
-      <p><i>Krakow, Poland</i></p>
-    </td>
-    <td style="padding: 10px;">
-      <img src="assets/img/photo4.jpg" alt="Chongqing, China" style="max-width: 100%; height: auto;">
-      <p><i>Chongqing, China</i></p>
-    </td>
-  </tr>
-</table>
+| | |
+|:---:|:---:|
+| ![Photo 1](/assets/img/photo1.jpg) | ![Photo 2](/assets/img/photo2.jpg) |
+| *Oslo, Norway* | *Amsterdam, Netherlands* |
+| ![Photo 3](/assets/img/photo3.jpg) | ![Photo 4](/assets/img/photo4.jpg) |
+| *Krakow, Poland* | *Chongqing, China* |
+
 ---
 
 
