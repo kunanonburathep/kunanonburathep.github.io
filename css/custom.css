@@ -1,0 +1,32 @@
+:root {
+  --link-color: #0056b3; 
+}
+
+/* Base font and bullets */
+body, p, li, a {
+  line-height: 1.6;
+}
+
+ul { 
+  list-style-type: disc; 
+  padding-left: 20px; 
+}
+
+/* Bold & Underlined Links for Content */
+a:not(header a):not(nav a):not(.nav a) { 
+  font-weight: bold !important; 
+  text-decoration: underline !important; 
+  color: var(--link-color);
+  text-underline-offset: 2px;
+}
+
+/* Clean Navigation (No underline) */
+header a, nav a, .nav a {
+  font-weight: normal !important;
+  text-decoration: none !important;
+  color: #333 !important;
+}
+
+/* Table and Gallery */
+table { border-collapse: collapse; width: 100%; border: none; }
+td { border: none; padding: 10px; vertical-align: top; text-align: center; }
