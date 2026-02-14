@@ -36,9 +36,9 @@ I love capturing moments from my travels and conference trips through my lens.
 
 | | |
 |:---:|:---:|
-| ![Photo 1](/assets/img/photo1.jpg) | ![Photo 2](/assets/img/photo2.jpg) |
+| ![Photo 1](/assets/img/photo1.JPG) | ![Photo 2](/assets/img/photo2.JPG) |
 | *Oslo, Norway* | *Amsterdam, Netherlands* |
-| ![Photo 3](/assets/img/photo3.jpg) | ![Photo 4](/assets/img/photo4.jpg) |
+| ![Photo 3](/assets/img/photo3.JPG) | ![Photo 4](/assets/img/photo4.JPG) |
 | *Krakow, Poland* | *Chongqing, China* |
 
 ---
