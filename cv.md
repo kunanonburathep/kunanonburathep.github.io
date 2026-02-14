@@ -8,7 +8,7 @@ description: "CV of Kunanon Burathep, PhD Student at Durham University"
 
 # Kunanon Burathep
 **Ph.D. Student in Computer Science** Durham University, United Kingdom  
-kunanon.burathep(at)durham.ac.uk or k.burathep(at)gmail.com <br>
+kunanon.burathep(at)durham.ac.uk | k.burathep(at)gmail.com <br>
 [Google Scholar][scholar] | [dblp][dblp] | [ORCID][ORCID] | [GitHub](https://github.com/kunanonburathep) | [LinkedIn](https://www.linkedin.com/in/kunanonburathep/)
 
 [Download CV as PDF](https://kunanonburathep.github.io/assets/CV_Kunanon.pdf)
