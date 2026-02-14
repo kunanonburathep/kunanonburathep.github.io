@@ -31,16 +31,23 @@ Advisor: [Assoc. Prof. Jittat Fakcharoenphol][jittat-page]
 
 **KB.**, T. Erlebach and W. K. Moses Jr.  
 **Learning-Augmented Online Bipartite Matching in the Random Arrival Order Model** 
-* arXiv preprint [arXiv:2511.23388][arxiv: LA-online-bipartite-matching-random-arrival-order]. (Full paper version)
-* 51st International Conference on Current Trends in Theory and Practice of Computer Science (SOFSEM 2026), 2026, pp 361–375, [DOI: 10.1007/978-3-032-17801-5_27][pub: SOFSEM2026]
+* *51st International Conference on Current Trends in Theory and Practice of Computer Science (SOFSEM 2026)*, 2026, pp 361–375, [DOI: 10.1007/978-3-032-17801-5_27][pub: SOFSEM2026].
+* Also [arXiv:2511.23388][arxiv: LA-online-bipartite-matching-random-arrival-order].
 
 **KB.** and J. Fakcharoenphol.  
-**An Approximation Algorithm for the Vertex Multicut on Trees with an Application to the Tracking Paths Problem** 
-* 19th International Joint Conference on Computer Science and Software Engineering (JCSSE), 2022, pp. 1-5, [DOI: 10.1109/JCSSE54890.2022.9836254][pub: JCSSE2022]
+**An Approximation Algorithm for the Vertex Multicut on Trees with an Application to the Tracking Paths Problem**
+* *19th International Joint Conference on Computer Science and Software Engineering (JCSSE)*, 2022, pp. 1-5, [DOI: 10.1109/JCSSE54890.2022.9836254][pub: JCSSE2022]
+
 
 **KB.**, J. Fakcharoenphol and N. Wongwattanakij.  
 **Approximating k-Connected m-Dominating Sets in Disk Graphs** 
 * 24th International Computer Science and Engineering Conference (ICSEC), 2020, pp. 1-7, [DOI: 10.1109/ICSEC51790.2020.9375178][pub: ICSEC2020]
+
+---
+
+## Talks and Presentations
+
+*Contributed Talk: Learning-Augmented Online Bipartite Matching in the Random Arrival Order Model* 
 
 ---
 
