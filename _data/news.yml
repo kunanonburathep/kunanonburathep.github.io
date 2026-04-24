@@ -1,0 +1,19 @@
+# =============================================================================
+# News & Updates
+# =============================================================================
+# To add a new item, add an entry at the TOP of the list (newest first).
+# The homepage shows the most recent 5 items.
+#
+# Template:
+#   - date: "YYYY-MM-DD"
+#     text: "Description of the news item. Use [links](url) if needed."
+# =============================================================================
+
+- date: "2026-01-01"
+  text: "Our paper on **Learning-Augmented Online Bipartite Matching** was presented at [SOFSEM 2026](https://doi.org/10.1007/978-3-032-17801-5_27)."
+
+- date: "2025-01-01"
+  text: "Started as a **Demonstrator** for Programming (Gold) and Algorithms & Data Structures at Durham University."
+
+- date: "2024-10-01"
+  text: "Began my **PhD** at Durham University, funded by an EPSRC Doctoral Studentship."

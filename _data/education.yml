@@ -1,0 +1,35 @@
+# =============================================================================
+# Education
+# =============================================================================
+# Template:
+#   - degree: "Ph.D. in Computer Science"
+#     institution: "University Name"
+#     country: "Country"
+#     period: "2024 – Present"
+#     supervisors:                      # optional
+#       - name: "Prof. Name"
+#         url: "https://..."
+# =============================================================================
+
+- degree: "Ph.D. in Computer Science"
+  institution: "Durham University"
+  country: "United Kingdom"
+  period: "2024 – Present"
+  supervisors:
+    - name: "Prof. Thomas Erlebach"
+      url: "https://sites.google.com/view/thomas-erlebach/home"
+    - name: "Asst. Prof. William Kumar Moses Jr."
+      url: "https://sites.google.com/view/wkmjr/home"
+
+- degree: "M.Eng. in Computer Engineering"
+  institution: "Kasetsart University"
+  country: "Thailand"
+  period: "2020 – 2022"
+  supervisors:
+    - name: "Assoc. Prof. Jittat Fakcharoenphol"
+      url: "https://en.eng.ku.ac.th/?professor=jittat-fakcharoenphol"
+
+- degree: "B.Eng. in Computer Engineering"
+  institution: "Kasetsart University"
+  country: "Thailand"
+  period: "2016 – 2020"

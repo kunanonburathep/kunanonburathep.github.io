@@ -1,0 +1,46 @@
+# =============================================================================
+# Publications Data
+# =============================================================================
+# To add a new publication, copy the template below and fill in the fields.
+# Papers are displayed in the order listed here (put newest first).
+#
+# Template:
+#   - title: "Paper Title"
+#     authors: "**KB.**, Coauthor1 and Coauthor2"   # use **KB.** for your name
+#     venue: "Conference/Journal Name"
+#     venue_short: "CONF2026"                         # abbreviation for badge
+#     year: 2026
+#     pages: "pp. 1-10"
+#     doi: "https://doi.org/..."                      # optional
+#     arxiv: "https://arxiv.org/abs/..."              # optional
+#     pdf: "/assets/papers/..."                        # optional local PDF
+#     selected: true                                   # show on homepage?
+# =============================================================================
+
+- title: "Learning-Augmented Online Bipartite Matching in the Random Arrival Order Model"
+  authors: "**KB.**, T. Erlebach and W. K. Moses Jr."
+  venue: "51st International Conference on Current Trends in Theory and Practice of Computer Science (SOFSEM 2026)"
+  venue_short: "SOFSEM 2026"
+  year: 2026
+  pages: "pp. 361–375"
+  doi: "https://doi.org/10.1007/978-3-032-17801-5_27"
+  arxiv: "https://arxiv.org/abs/2511.23388"
+  selected: true
+
+- title: "An Approximation Algorithm for the Vertex Multicut on Trees with an Application to the Tracking Paths Problem"
+  authors: "**KB.** and J. Fakcharoenphol"
+  venue: "19th International Joint Conference on Computer Science and Software Engineering (JCSSE 2022)"
+  venue_short: "JCSSE 2022"
+  year: 2022
+  pages: "pp. 1-5"
+  doi: "https://doi.org/10.1109/JCSSE54890.2022.9836254"
+  selected: true
+
+- title: "Approximating k-Connected m-Dominating Sets in Disk Graphs"
+  authors: "**KB.**, J. Fakcharoenphol and N. Wongwattanakij"
+  venue: "24th International Computer Science and Engineering Conference (ICSEC 2020)"
+  venue_short: "ICSEC 2020"
+  year: 2020
+  pages: "pp. 1-7"
+  doi: "https://doi.org/10.1109/ICSEC51790.2020.9375178"
+  selected: false

@@ -1,0 +1,17 @@
+# =============================================================================
+# Talks & Presentations
+# =============================================================================
+# To add a new entry, add it at the TOP (newest first).
+#
+# Template:
+#   - title: "Talk Title"
+#     event: "Conference/Workshop Name"
+#     location: "City, Country"
+#     date: "Month Year"
+#     type: "Contributed Talk"         # e.g., Contributed Talk, Invited Talk, Poster
+#     slides: "/assets/slides/..."     # optional
+# =============================================================================
+
+- title: "Learning-Augmented Online Bipartite Matching in the Random Arrival Order Model"
+  type: "Contributed Talk"
+  event: "SOFSEM 2026"

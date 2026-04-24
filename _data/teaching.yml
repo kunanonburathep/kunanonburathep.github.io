@@ -1,0 +1,29 @@
+# =============================================================================
+# Teaching Experience
+# =============================================================================
+# To add a new entry, add it at the TOP (newest first).
+#
+# Template:
+#   - role: "Demonstrator"
+#     institution: "Durham University"
+#     period: "Jan 2025 – Present"
+#     courses:
+#       - name: "Course Name"
+#         url: "https://..."    # optional
+# =============================================================================
+
+- role: "Demonstrator"
+  institution: "Durham University"
+  period: "Jan 2025 – Present"
+  courses:
+    - name: "Programming (Gold)"
+      url: "https://www.durham.ac.uk/study/modules/undergraduate/comp1111.php"
+    - name: "Algorithms and Data Structures"
+      url: "https://apps.dur.ac.uk/faculty.handbook/2020/UG/module/COMP1081"
+
+- role: "Teaching Assistant"
+  institution: "Kasetsart University"
+  period: "2018 – 2022"
+  courses:
+    - name: "Discrete Mathematics"
+    - name: "Algorithms and Data Structures"

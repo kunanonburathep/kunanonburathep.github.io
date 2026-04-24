@@ -1,32 +1,483 @@
+/* =============================================================================
+   Custom CSS — Kunanon Burathep Academic Homepage
+   ============================================================================= */
+
 :root {
-  --link-color: #0056b3; 
+  --accent: #2563eb;
+  --accent-light: #dbeafe;
+  --accent-dark: #1e40af;
+  --text-primary: #1a1a2e;
+  --text-secondary: #4a5568;
+  --text-muted: #718096;
+  --bg-primary: #ffffff;
+  --bg-secondary: #f7f8fa;
+  --bg-card: #ffffff;
+  --border: #e2e8f0;
+  --border-light: #edf2f7;
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.06);
+  --shadow-md: 0 4px 12px rgba(0,0,0,0.08);
+  --radius: 8px;
+  --radius-lg: 12px;
+  --link-color: var(--accent);
 }
 
-/* Base font and bullets */
+/* ---------- Base ---------- */
+
 body, p, li, a {
-  line-height: 1.6;
+  line-height: 1.7;
+  color: var(--text-primary);
 }
 
-ul { 
-  list-style-type: disc; 
-  padding-left: 20px; 
+body {
+  background: var(--bg-secondary) !important;
 }
 
-/* Bold & Underlined Links for Content */
-a:not(header a):not(nav a):not(.nav a) { 
-  font-weight: bold !important; 
-  text-decoration: underline !important; 
-  color: var(--link-color);
-  text-underline-offset: 2px;
+.container {
+  max-width: 800px;
 }
 
-/* Clean Navigation (No underline) */
-header a, nav a, .nav a {
-  font-weight: normal !important;
+h1 { font-size: 1.8rem; margin-top: 0; }
+h2 { font-size: 1.35rem; color: var(--text-primary); border-bottom: 2px solid var(--accent); padding-bottom: 0.3em; margin-top: 2em; }
+h3 { font-size: 1.1rem; color: var(--text-secondary); }
+
+hr {
+  border: none;
+  height: 1px;
+  background: var(--border);
+  width: 100%;
+  margin: 1.5em 0;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+/* ---------- Links ---------- */
+
+a:not(header a):not(nav a):not(.nav a):not(.profile-link a) {
+  font-weight: 600 !important;
   text-decoration: none !important;
-  color: #333 !important;
+  color: var(--accent);
+  border-bottom: 1.5px solid transparent;
+  transition: border-color 0.2s, color 0.2s;
+}
+a:not(header a):not(nav a):not(.nav a):not(.profile-link a):hover {
+  border-bottom-color: var(--accent);
+  color: var(--accent-dark);
 }
 
-/* Table and Gallery */
+/* ---------- Header / Nav ---------- */
+
+header {
+  background: var(--bg-primary);
+  border-bottom: 1px solid var(--border) !important;
+  padding: 0.8em 0 !important;
+}
+
+header a, nav a, .nav a {
+  font-weight: 500 !important;
+  text-decoration: none !important;
+  color: var(--text-secondary) !important;
+  transition: color 0.2s;
+}
+nav a:hover {
+  color: var(--accent) !important;
+}
+nav a {
+  padding: 0.25em 0.5em;
+  border-radius: 4px;
+}
+
+/* ---------- Main content area ---------- */
+
+.mainmatter {
+  background: var(--bg-primary);
+}
+
+article.page {
+  padding: 1em 0 2em;
+}
+
+/* ---------- Hero / Profile Section ---------- */
+
+.profile-section {
+  display: flex;
+  align-items: flex-start;
+  gap: 2em;
+  margin-bottom: 1em;
+}
+
+.profile-photo {
+  width: 160px;
+  min-width: 160px;
+  border-radius: 12px;
+  box-shadow: var(--shadow-md);
+}
+
+.profile-info h1 {
+  margin: 0 0 0.1em;
+  font-size: 1.9rem;
+}
+
+.profile-info .pronunciation {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-bottom: 0.3em;
+}
+
+.profile-info .affiliation {
+  color: var(--text-secondary);
+  font-size: 1.05rem;
+  margin-bottom: 0.8em;
+}
+
+.profile-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em 1.2em;
+  margin-top: 0.5em;
+}
+
+.profile-links a {
+  color: var(--text-muted) !important;
+  font-weight: 500 !important;
+  text-decoration: none !important;
+  font-size: 0.9rem;
+  border-bottom: none !important;
+  transition: color 0.2s;
+}
+.profile-links a:hover {
+  color: var(--accent) !important;
+}
+
+/* ---------- Section Cards ---------- */
+
+.section-card {
+  background: var(--bg-primary);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-lg);
+  padding: 1.2em 1.5em;
+  margin-bottom: 1.2em;
+  box-shadow: var(--shadow-sm);
+}
+
+/* ---------- News ---------- */
+
+.news-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.news-item {
+  display: flex;
+  gap: 1em;
+  padding: 0.6em 0;
+  border-bottom: 1px solid var(--border-light);
+  align-items: baseline;
+}
+
+.news-item:last-child {
+  border-bottom: none;
+}
+
+.news-date {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  white-space: nowrap;
+  min-width: 90px;
+  font-variant-numeric: tabular-nums;
+}
+
+.news-text {
+  font-size: 0.95rem;
+}
+
+/* ---------- Publications ---------- */
+
+.pub-item {
+  padding: 1em 0;
+  border-bottom: 1px solid var(--border-light);
+}
+
+.pub-item:last-child {
+  border-bottom: none;
+}
+
+.pub-title {
+  font-weight: 600;
+  color: var(--text-primary);
+  font-size: 1rem;
+  margin-bottom: 0.2em;
+}
+
+.pub-authors {
+  color: var(--text-secondary);
+  font-size: 0.93rem;
+  margin-bottom: 0.2em;
+}
+
+.pub-venue {
+  color: var(--text-muted);
+  font-size: 0.88rem;
+  font-style: italic;
+  margin-bottom: 0.4em;
+}
+
+.pub-links {
+  display: flex;
+  gap: 0.8em;
+  flex-wrap: wrap;
+}
+
+.pub-links a {
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 600 !important;
+  color: var(--accent) !important;
+  border: 1.5px solid var(--accent);
+  border-radius: 4px;
+  padding: 0.15em 0.6em;
+  text-decoration: none !important;
+  transition: background 0.2s, color 0.2s;
+}
+.pub-links a:hover {
+  background: var(--accent);
+  color: #fff !important;
+}
+
+/* ---------- Venue badge ---------- */
+
+.venue-badge {
+  display: inline-block;
+  background: var(--accent-light);
+  color: var(--accent-dark);
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.15em 0.5em;
+  border-radius: 4px;
+  margin-right: 0.5em;
+  vertical-align: middle;
+  letter-spacing: 0.02em;
+}
+
+/* ---------- Education ---------- */
+
+.edu-item {
+  padding: 0.7em 0;
+  border-bottom: 1px solid var(--border-light);
+}
+.edu-item:last-child {
+  border-bottom: none;
+}
+
+.edu-degree {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.edu-institution {
+  color: var(--text-secondary);
+  font-size: 0.93rem;
+}
+
+.edu-period {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+
+.edu-supervisors {
+  color: var(--text-muted);
+  font-size: 0.88rem;
+  margin-top: 0.2em;
+}
+
+/* ---------- Teaching ---------- */
+
+.teach-item {
+  padding: 0.7em 0;
+  border-bottom: 1px solid var(--border-light);
+}
+.teach-item:last-child {
+  border-bottom: none;
+}
+
+.teach-role {
+  font-weight: 600;
+}
+
+.teach-meta {
+  color: var(--text-muted);
+  font-size: 0.88rem;
+}
+
+.teach-courses {
+  margin: 0.3em 0 0 1.2em;
+  padding: 0;
+  font-size: 0.93rem;
+}
+
+/* ---------- Talks ---------- */
+
+.talk-item {
+  padding: 0.6em 0;
+  border-bottom: 1px solid var(--border-light);
+}
+.talk-item:last-child {
+  border-bottom: none;
+}
+
+.talk-type {
+  font-size: 0.8rem;
+  color: var(--accent);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+/* ---------- Research Interests Tags ---------- */
+
+.research-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  margin: 0.8em 0;
+  padding: 0;
+  list-style: none;
+}
+
+.research-tag {
+  background: var(--accent-light);
+  color: var(--accent-dark);
+  padding: 0.3em 0.8em;
+  border-radius: 20px;
+  font-size: 0.88rem;
+  font-weight: 500;
+}
+
+/* ---------- Contact Info ---------- */
+
+.contact-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em 2em;
+  font-size: 0.93rem;
+}
+
+/* ---------- Photo Gallery (Offtopic) ---------- */
+
+.photo-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1em;
+  margin: 1em 0;
+}
+
+.photo-card {
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  background: var(--bg-card);
+}
+
+.photo-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s;
+}
+.photo-card:hover img {
+  transform: scale(1.03);
+}
+
+.photo-card .caption {
+  padding: 0.5em 0.8em;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  text-align: center;
+  font-style: italic;
+}
+
+/* ---------- Hobby Cards (Offtopic) ---------- */
+
+.hobby-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1em;
+  margin: 1em 0;
+}
+
+.hobby-card {
+  background: var(--bg-secondary);
+  border-radius: var(--radius);
+  padding: 1em 1.2em;
+  border: 1px solid var(--border-light);
+}
+
+.hobby-card h4 {
+  margin: 0 0 0.3em;
+  font-size: 1rem;
+  color: var(--text-primary);
+}
+
+.hobby-card p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+/* ---------- Footer ---------- */
+
+footer {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  text-align: center;
+  padding: 1em 0;
+  border-top: 1px solid var(--border-light);
+}
+
+footer h5, footer h6 {
+  color: var(--text-muted);
+  font-weight: 400;
+}
+
+/* ---------- Table cleanup ---------- */
+
 table { border-collapse: collapse; width: 100%; border: none; }
 td { border: none; padding: 10px; vertical-align: top; text-align: center; }
+
+/* ---------- Responsive ---------- */
+
+@media (max-width: 640px) {
+  .profile-section {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .profile-photo {
+    width: 130px;
+    min-width: 130px;
+  }
+
+  .profile-links {
+    justify-content: center;
+  }
+
+  .hobby-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .photo-gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .news-item {
+    flex-direction: column;
+    gap: 0.2em;
+  }
+
+  h1 { font-size: 1.5rem; }
+  h2 { font-size: 1.2rem; }
+}

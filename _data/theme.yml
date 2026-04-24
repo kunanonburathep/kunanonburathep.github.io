@@ -18,6 +18,8 @@ navigation:
   menu:
     - name: Home
       path: "/index"
+    - name: Publications
+      path: "/publications"
     - name: CV
       path: "/cv"
     - name: Off-topic
